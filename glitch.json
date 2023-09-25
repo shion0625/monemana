@@ -1,0 +1,9 @@
+{
+  "install": "GOPATH=$PWD/.data/go go get -v -u github.com/labstack/echo",
+  "start": "GOPATH=$PWD/.data/go go run server.go",
+  "watch": {
+    "restart": {
+      "include": ["\\.go$"]
+    }
+  }
+}
